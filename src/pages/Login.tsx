@@ -155,7 +155,7 @@ export default function Login() {
         sessionStorage.setItem(key, value)
       })
       
-      navigate('/settings')
+      navigate('/dashboard')
     } catch (err) {
       console.error('Erro no login:', err)
       setError('Erro ao fazer login. Tente novamente.')
